@@ -1,0 +1,5 @@
+mk_life_reminder_main:
+    resource: "@MkLifeReminderMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
