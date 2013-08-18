@@ -16,4 +16,13 @@ class DefaultController extends Controller
     {
         return array('name' => $name);
     }
+
+    /**
+     * @Route("/sample/{name}")
+     * @Template()
+     */
+    public function sampleAction($name)
+    {
+        return array('name' => $name);
+    }
 }
